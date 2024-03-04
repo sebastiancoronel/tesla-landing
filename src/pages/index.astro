@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import LandingHeader from '../components/LandingHeader.astro';
+import HeroSection from '../components/HeroSection.astro';
+import ChargeSection from '../components/ChargeSection.astro';
+import Section from '../components/Section.astro';
+
+
+---
+
+<Layout title="Welcome to Astro.">
+	<main class="snap-y snap-mandatory relative w-full h-screen overflow-auto">
+		<LandingHeader/>
+		<div class="snap-center">
+			<HeroSection/>		
+		</div>
+		
+		<div class="snap-center">
+			<ChargeSection/>
+		</div>			
+	</main>
+</Layout>
